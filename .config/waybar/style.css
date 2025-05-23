@@ -1,0 +1,83 @@
+* {
+    border: none;
+    border-radius: 12px;
+    font-family: "Space Mono";
+    font-size: 14px;
+    min-height: 0;
+    color: #ffffff;
+}
+
+window#waybar {
+    background: #000000; /* Pure black background */
+    border-radius: 0;
+    padding: 6px 10px;
+    box-shadow: none;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    margin: 10px 5px;
+    background: #111111;
+    border-radius: 8px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+#workspaces button.focused {
+    background: #a1d99b; /* Light indigo */
+    font-weight: bold;
+}
+
+#workspaces button.focused label {
+   color: black;
+}
+
+#workspaces button:hover {
+    background: #a1d99b;
+}
+
+#workspaces button:hover label {
+  color: #000;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd,
+#custom-layout {
+    padding: 6px 12px;
+    background: #111111;
+    color: #a1d99b; /* Light indigo text */
+    border-radius: 10px;
+    transition: background 0.3s ease;
+    margin:10px 5px;
+
+}
+
+/* Additional module styles */
+#temperature.critical {
+    background: #ff5555;
+    color: #ffffff;
+}
+
+#battery.charging {
+    background: #a1d99b;
+    color: #000000;
+}
+
+#pulseaudio.muted {
+    background: #444;
+    color: #bbbbbb;
+}
