@@ -31,8 +31,6 @@ Config path:
 - `~/.config/waybar/config`  
 - `~/.config/waybar/style.css`
 
----
-
 ### 🐚 [Zsh](https://www.zsh.org/)
 
 A powerful and extensible shell that serves as a drop-in replacement for Bash.
