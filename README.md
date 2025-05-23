@@ -33,6 +33,19 @@ Config path:
 
 ---
 
+### 🐚 [Zsh](https://www.zsh.org/)
+
+A powerful and extensible shell that serves as a drop-in replacement for Bash.
+
+* Custom prompt and theme
+* Plugin support via a manager (e.g. [Oh My Zsh](https://ohmyz.sh/), [zinit](https://github.com/zdharma-continuum/zinit), or [zplug](https://github.com/zplug/zplug))
+* Aliases and functions for productivity
+* Shell options and history configuration
+
+**Config path:** `~/.zshrc`
+
+---
+
 ## 🚀 Setup (with `yadm`)
 
 To clone and apply this setup:
