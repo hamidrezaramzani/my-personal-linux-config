@@ -1,86 +1,16 @@
 configuration {
     modi: [drun,run,window];
-/*	modi: "window,run,ssh";*/
-/*	width: 50;*/
-/*	lines: 15;*/
-/*	columns: 1;*/
-/*	font: "mono 12";*/
-/*	bw: 1;*/
-/*	location: 0;*/
-/*	padding: 5;*/
-/*	yoffset: 0;*/
-/*	xoffset: 0;*/
-/*	fixed-num-lines: true;*/
-	show-icons: true;
-/*	terminal: "rofi-sensible-terminal";*/
-/*	ssh-client: "ssh";*/
-/*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
-/*	run-command: "{cmd}";*/
-/*	run-list-command: "";*/
-/*	run-shell-command: "{terminal} -e {cmd}";*/
-/*	window-command: "wmctrl -i -R {window}";*/
-/*	window-match-fields: "all";*/
-/*	icon-theme: ;*/
-/*	drun-match-fields: "name,generic,exec,categories,keywords";*/
-/*	drun-categories: ;*/
-/*	drun-show-actions: false;*/
-/*	drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";*/
-/*	drun-url-launcher: "xdg-open";*/
-	disable-history: false;
-/*	ignored-prefixes: "";*/
-/*	sort: false;*/
-/*	sorting-method: "normal";*/
-/*	case-sensitive: false;*/
-	cycle: true;
-	sidebar-mode: false;
-/*	eh: 1;*/
-/*	auto-select: false;*/
-/*	parse-hosts: false;*/
-/*	parse-known-hosts: true;*/
-/*	combi-modi: "window,run";*/
-/*	matching: "normal";*/
-/*	tokenize: true;*/
-/*	m: "-5";*/
-/*	line-margin: 2;*/
-/*	line-padding: 1;*/
-/*	filter: ;*/
-/*	separator-style: "dash";*/
-	hide-scrollbar: true;
-/*	fullscreen: false;*/
-/*  fake-transparency: false;*/
+    show-icons: true;
+    disable-history: false;
+    cycle: true;
+    sidebar-mode: false;
+    hide-scrollbar: true;
+}
 
-}
-* {
-    selected-normal-foreground:  #000000;
-    foreground:                  #a1d99b;
-    normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 0, 0, 0, 0 % );
-    red:                         rgba ( 220, 50, 47, 100 % );
-    selected-urgent-foreground:  #a1d99b;
-    blue:                        #000000;
-    urgent-foreground:           #a1d99b;
-    alternate-urgent-background: rgba ( 0, 0, 0, 0 % );
-    active-foreground:           #a1d99b;
-    lightbg:                     #a1d99b;
-    selected-active-foreground:  #a1d99b;
-    alternate-active-background: #000000;
-    background:                  #000000;
-    bordercolor:                 rgba ( 219, 223, 188, 100 % );
-    alternate-normal-foreground: @foreground;
-    normal-background:           rgba ( 0, 0, 208, 0 % );
-    lightfg:                     rgba ( 88, 104, 117, 100 % );
-    selected-normal-background:  #a1d99b;
-    border-color:                @foreground;
-    spacing:                     2;
-    separatorcolor:              rgba ( 219, 223, 188, 100 % );
-    urgent-background:           #a1d99b;
-    selected-urgent-background:  #a1d99b;
-    alternate-urgent-foreground: @urgent-foreground;
-    background-color:            rgba ( 0, 0, 0, 0 % );
-    alternate-active-foreground: @active-foreground;
-    active-background:           #a1d99b;
-    selected-active-background:  #a1d99b;
-}
+
+@import "./colors.rasi"
+
+
 window {
     background-color: @background;
     border:           1;
