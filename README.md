@@ -2,6 +2,12 @@
 
 This is my personal dotfiles repository managed with [`yadm`](https://yadm.io/). It includes the configuration files I use on my Linux system — currently focused on a tiling Wayland setup.
 
+## 📷 Screenshot
+
+Here's a preview of my current Sway + Waybar setup:
+
+![screenshot of my sway setup](swappy-20250521_140818.png)
+
 ## 📁 What’s included
 
 ### 🌅 [Sway](https://github.com/swaywm/sway)
