@@ -42,6 +42,26 @@ A powerful and extensible shell that serves as a drop-in replacement for Bash.
 
 **Config path:** `~/.zshrc`
 
+
+## ✨ Rofi
+
+A powerful and minimal application launcher and dynamic menu system for Wayland/X11.
+
+🎨 **Theme**
+A customized version of [Qball’s Rofi theme](https://github.com/davatorium/rofi), styled with:
+
+* A dark, minimal aesthetic
+* Soft green accent color: `#a1d99b`
+* Clean spacing and typography
+
+
+📁 **Config Path**
+
+```bash
+~/.config/rofi/
+```
+
+
 ---
 
 ## 🚀 Setup (with `yadm`)
