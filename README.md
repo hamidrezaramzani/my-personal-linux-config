@@ -62,6 +62,18 @@ A customized version of [Qball’s Rofi theme](https://github.com/davatorium/rof
 ```
 
 
+### 🔔 [Mako](https://github.com/emersion/mako)  
+A lightweight notification daemon for Wayland compositors like Sway.
+
+- Styled using an `.ini`-style config file  
+- Supports colors, margins, padding, fonts, icons, and timeouts  
+- Can be launched manually or autostarted with Sway  
+- Easily themed to match your system's look (like your green `#a1d99b`)
+
+**Config path:**  
+- `~/.config/mako/config`
+
+
 ---
 
 ## 🚀 Setup (with `yadm`)
