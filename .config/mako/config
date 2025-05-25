@@ -1,0 +1,30 @@
+
+# Font
+font=MonoSpace
+
+# Colors
+background-color=#a1d99b
+text-color=#000000
+border-color=#a1d99b
+progress-color=#a1d99b
+
+# Appearance
+border-size=2
+border-radius=10
+padding=12
+default-timeout=5000
+max-icon-size=48
+icons=true
+
+# Notification layout
+anchor=top-right
+width=300
+height=100
+margin=10
+
+# High urgency notifications
+[urgency=high]
+background-color=#000000
+border-color=#ff5555
+default-timeout=10000
+
