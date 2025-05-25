@@ -56,7 +56,9 @@ window#waybar {
 #scratchpad,
 #power-profiles-daemon,
 #mpd,
-#custom-layout {
+#custom-layout,
+#custom-clipboard
+{
     padding: 6px 12px;
     background: #111111;
     color: #a1d99b; /* Light indigo text */

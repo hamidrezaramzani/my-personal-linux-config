@@ -15,8 +15,7 @@
     "modules-center": [
     ],
     "modules-right": [
-        "mpd",
-        "idle_inhibitor",
+        "custom/clipboard",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
@@ -31,6 +30,13 @@
         "tray",
         "custom/power"
     ],
+    "custom/clipboard": {
+	  "format": "📋",
+ 	 "tooltip": "Clipboard History",
+ 	 "exec": "echo '📋'",
+ 	 "on-click": "cliphist list | rofi -dmenu -p 'Clipboard' | cliphist decode | wl-copy",
+	  "interval": 60
+	},
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
