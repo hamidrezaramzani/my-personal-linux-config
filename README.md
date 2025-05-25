@@ -10,69 +10,21 @@ Here's a preview of my current Sway + Waybar setup:
 
 ## 📁 What’s included
 
-### 🌅 [Sway](https://github.com/swaywm/sway)
-A tiling Wayland compositor and drop-in replacement for i3.
 
-- Custom keybindings
-- Workspaces and layouts
-- Autostart applications
-- Power and lock controls
+- 🌅 [Sway](https://github.com/swaywm/sway) — Tiling Wayland compositor.  
+  `~/.config/sway/config`
 
-Config path: `~/.config/sway/config`
+- 📊 [Waybar](https://github.com/Alexays/Waybar) — Customizable status bar with CSS styling.  
+  `~/.config/waybar/config`, `~/.config/waybar/style.css`
 
-### 📊 [Waybar](https://github.com/Alexays/Waybar)
-A highly customizable status bar for Sway and other Wayland compositors.
+- 🔔 [Mako](https://github.com/emersion/mako) — Lightweight notification daemon for Wayland.  
+  `~/.config/mako/config`
 
-- Custom modules (CPU, memory, clock, etc.)
-- Styled with CSS
-- Keybinding integration with Sway
+- 🐚 [Zsh](https://www.zsh.org/) — Extensible shell with plugins, aliases, and theming.  
+  `~/.zshrc`
 
-Config path:  
-- `~/.config/waybar/config`  
-- `~/.config/waybar/style.css`
-
-### 🐚 [Zsh](https://www.zsh.org/)
-
-A powerful and extensible shell that serves as a drop-in replacement for Bash.
-
-* Custom prompt and theme
-* Plugin support via a manager (e.g. [Oh My Zsh](https://ohmyz.sh/), [zinit](https://github.com/zdharma-continuum/zinit), or [zplug](https://github.com/zplug/zplug))
-* Aliases and functions for productivity
-* Shell options and history configuration
-
-**Config path:** `~/.zshrc`
-
-
-## ✨ Rofi
-
-A powerful and minimal application launcher and dynamic menu system for Wayland/X11.
-
-🎨 **Theme**
-A customized version of [Qball’s Rofi theme](https://github.com/davatorium/rofi), styled with:
-
-* A dark, minimal aesthetic
-* Soft green accent color: `#a1d99b`
-* Clean spacing and typography
-
-
-📁 **Config Path**
-
-```bash
-~/.config/rofi/
-```
-
-
-### 🔔 [Mako](https://github.com/emersion/mako)  
-A lightweight notification daemon for Wayland compositors like Sway.
-
-- Styled using an `.ini`-style config file  
-- Supports colors, margins, padding, fonts, icons, and timeouts  
-- Can be launched manually or autostarted with Sway  
-- Easily themed to match your system's look (like your green `#a1d99b`)
-
-**Config path:**  
-- `~/.config/mako/config`
-
+- ✨ [Rofi](https://github.com/davatorium/rofi) — Minimal application launcher and menu system.  
+  `~/.config/rofi/`
 
 ---
 
