@@ -152,6 +152,9 @@ alias gsquash='git rebase -i HEAD~'
 # Shortcuts for cloning
 alias gcl='git clone'
 
+# Shortcuts for zsh
+alias zshrc="$EDITOR ~/.zshrc"
+alias reload="source ~/.zshrc"
 
 if command -v rbenv &>/dev/null; then
   eval "$(rbenv init - zsh)"
@@ -165,7 +168,7 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
 export ELECTRON_OZONE_PLATFORM_HINT=x11
-
+export EDITOR="vim"
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
