@@ -166,8 +166,6 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
 export ELECTRON_OZONE_PLATFORM_HINT=x11
 
-alias docker2="$HOME/Documents/porosys/server-scripts/docker_manual.sh"
-
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
