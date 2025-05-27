@@ -2,15 +2,14 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
-#export ZSH="$HOME/.oh-my-zsh"
-#source "$HOME/.zsh/spaceship/spaceship.zsh"
+export ZSH="$HOME/.oh-my-zsh"
+source "$HOME/.zsh/spaceship/spaceship.zsh"
 source "$HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="amuse"
-eval "$(starship init zsh)"
+ZSH_THEME="alanpeabody"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -73,7 +72,7 @@ eval "$(starship init zsh)"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-history-substring-search)
 
-#source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -91,8 +90,8 @@ plugins=(git zsh-history-substring-search)
 
 # Git general
 alias g='git'
-alias gst='git status'
-alias ga='git add'
+alias gs='git status'
+alias ga='git add -A'
 alias gaa='git add .'
 alias gc='git commit -v'
 alias gcm='git commit -m'
@@ -101,7 +100,9 @@ alias gcam='git commit -am'
 alias gp='git push'
 alias gpf='git push --force'
 alias gpl='git pull'
+alias gpu='git pull'
 alias gl='git log --oneline --graph --decorate --all'
+alias gpo='git push origin $(git symbolic-ref --short HEAD)'
 
 # Branches
 alias gb='git branch'
@@ -134,6 +135,7 @@ alias gra='git remote add'
 alias gd='git diff'
 alias gds='git diff --staged'
 alias gshow='git show'
+alias gh="git diff HEAD"
 
 # Clean up
 alias gclean='git clean -fd'
