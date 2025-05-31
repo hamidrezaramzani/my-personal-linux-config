@@ -157,6 +157,9 @@ alias gcl='git clone'
 alias zshrc="$EDITOR ~/.zshrc"
 alias reload="source ~/.zshrc"
 
+# General shortcuts
+alias bemir="exit"
+
 if command -v rbenv &>/dev/null; then
   eval "$(rbenv init - zsh)"
 fi
