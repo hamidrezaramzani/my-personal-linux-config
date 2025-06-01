@@ -6,7 +6,7 @@ This is my personal dotfiles repository managed with [`yadm`](https://yadm.io/).
 
 Here's a preview of my current Sway + Waybar setup:
 
-![screenshot of my sway setup](swappy-20250521_140818.png)
+![screenshot of my sway setup](screenshot.png)
 
 ## 📁 What’s included
 
