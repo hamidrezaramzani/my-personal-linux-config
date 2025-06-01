@@ -34,7 +34,7 @@
 	  "format": "📋",
  	 "tooltip": "Clipboard History",
  	 "exec": "echo '📋'",
- 	 "on-click": "cliphist list | rofi -dmenu -p 'Clipboard' | cliphist decode | wl-copy",
+ 	 "on-click": "cliphist list | rofi -dmenu -p 'Clipboard' -width 899 | cliphist decode | wl-copy",
 	  "interval": 60
 	},
     // Modules configuration
