@@ -168,6 +168,79 @@ alias reload="source ~/.zshrc"
 # General shortcuts
 alias bemir="exit"
 
+
+# yadm general
+alias y='yadm'
+alias ys='yadm status'
+alias ya='yadm add -A'
+alias yaa='yadm add .'
+alias yc='yadm commit -m'
+alias yca='yadm commit -a'
+alias ycam='yadm commit -am'
+alias yp='yadm push'
+alias ypf='yadm push --force'
+alias ypl='yadm pull'
+alias ypu='yadm pull'
+alias yl='yadm log --oneline --graph --decorate --all'
+alias ypo='yadm push origin $(yadm symbolic-ref --short HEAD)'
+
+# Branches
+alias yb='yadm branch'
+alias yba='yadm branch -a'
+alias yco='yadm checkout'
+alias ycb='yadm checkout -b'
+alias ybd='yadm branch -d'
+alias ybD='yadm branch -D'
+alias ybm='yadm branch -m'
+
+# Merging & Rebase
+alias ym='yadm merge'
+alias yrb='yadm rebase'
+alias yrbc='yadm rebase --continue'
+alias yrba='yadm rebase --abort'
+
+# Stashing
+alias ystash='yadm stash'
+alias ystashp='yadm stash pop'
+
+# Tags
+alias ytag='yadm tag'
+alias ytags='yadm tag -l'
+
+# Remote
+alias yr='yadm remote'
+alias yrv='yadm remote -v'
+alias yra='yadm remote add'
+
+# Diff & Show
+alias yd='yadm diff'
+alias yds='yadm diff --staged'
+alias yshow='yadm show'
+alias yh='yadm diff HEAD'
+
+# Clean up
+alias yclean='yadm clean -fd'
+
+# Reset
+alias yrs='yadm reset'
+alias yrsh='yadm reset --hard'
+alias yrsm='yadm reset --mixed'
+
+# Others
+alias yundo='yadm reset --soft HEAD~1'   # Undo last commit but keep changes
+alias yamend='yadm commit --amend'
+alias yfix='yadm commit --fixup'
+alias ysquash='yadm rebase -i HEAD~'
+
+# Shortcuts for cloning
+alias ycl='yadm clone'
+
+# Shortcuts for zsh
+alias zshrc="$EDITOR ~/.zshrc"
+alias reload="source ~/.zshrc"
+
+
+
 if command -v rbenv &>/dev/null; then
   eval "$(rbenv init - zsh)"
 fi
