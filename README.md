@@ -26,6 +26,10 @@ Here's a preview of my current Sway + Waybar setup:
 - ✨ [Rofi](https://github.com/davatorium/rofi) — Minimal application launcher and menu system.  
   `~/.config/rofi/`
 
+- 🚀 LazyVim — An opinionated, modular Neovim configuration for modern development.  
+~/.config/nvim/
+
+
 ---
 
 ## 🚀 Setup (with `yadm`)
