@@ -239,6 +239,7 @@ alias ycl='yadm clone'
 alias zshrc="$EDITOR ~/.zshrc"
 alias reload="source ~/.zshrc"
 
+alias porosys="tmuxinator start porosys"
 
 
 if command -v rbenv &>/dev/null; then
